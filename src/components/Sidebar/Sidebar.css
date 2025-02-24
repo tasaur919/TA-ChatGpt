@@ -1,0 +1,65 @@
+.sidebar{
+    padding: 50px 20px;
+    font-size: 20px;
+    justify-content: start;
+    background-color:var(--background-color);
+    color: var(--color);
+   overflow: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    scrollbar-width: none;
+
+}
+#ham{
+    cursor: pointer;
+    margin-left: 6px;
+    
+}
+
+.plus{
+    display: flex;
+    text-align: center;
+    background-color: rgb(146, 144, 142);
+   padding: 5px;
+   border-radius: 20px;
+   column-gap: 8px;
+   cursor: pointer;
+   align-items: center;
+   transition: all 0.2s;
+   
+}
+.plus:hover{
+    background-color: rgb(125, 123, 123);
+    color: white;
+}
+.chat{
+    display: flex;
+    text-align: center;
+    align-items: center;
+   padding: 5px;
+   border-radius: 20px;
+   column-gap: 8px;
+   cursor: pointer;
+   transition: all 0.2s;
+}
+.chat:hover{
+    background-color: rgb(125, 123, 123);
+    color: white;
+}
+p{
+    font-size: 15px;
+}
+svg{
+    font-size: 25px;
+    color: var(--color);
+}
+
+/*for responsive*/
+
+@media (max-width:600px) {
+    .sidebar{
+        display: none;
+    }
+}

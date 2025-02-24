@@ -1,0 +1,26 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#root{
+  display: flex;
+}
+
+.lightmode{
+  --color:black;
+  --background-color: white;
+  --btn-background-color:black;
+  --btn-color:white;
+  --hover-btn-bg:rgb(167, 165, 165);
+
+}
+.darkmode{
+  --color:white;
+  --background-color:black;
+  --hover-btn-bg:rgb(167, 165, 165);
+  --btn-background-color:white;
+  --btn-color:black;
+}

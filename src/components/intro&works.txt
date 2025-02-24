@@ -1,0 +1,34 @@
+create folders:
+components
+context
+
+================================================
+assets folder>> contain images and videos audios
+================================================
+installations:
+1:
+react icons->npm or react-icons   :website name
+ter>>>npm i react-icons
+than goes to react icons of github and search icons and import and use icons.
+
+2:use gemini
+src->gemini.js ->file create and search browser >>gemini api and click "get api key"   than "create api key" copy to past gemini.js file
+
+again click  getcode and select language and model copy past to gemini.js file and also click "relevant package" select node.js package and install it.
+
+3:
+
+===================================================
+1:55m last
+==============================================
+DEPLOY ON "NETLIFY.COM" website
+sighn up -> login
+
+now under the project run bellow command:
+>>npm run build
+
+automatic build a folder name is "dist"
+
+upload dist folder
+
+and change the domain name "TA'ChatGpt"
